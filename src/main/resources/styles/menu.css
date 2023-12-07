@@ -1,0 +1,55 @@
+/* menu */
+
+.menu_main_container {
+	-fx-background-color: #EEEEEE;
+	-fx-alignment: center;
+}
+
+.menu_left_container {
+	-fx-background-color: #FFFFFF;
+	-fx-background-radius: 10;
+	-fx-effect: dropshadow(two-pass-box, #AAAAAA, 5,0,0,4);
+}
+
+.menu_title_container {
+	-fx-background-color: #FFFFFF;
+	-fx-background-radius: 20 20 0 0;
+	-fx-alignment: top_center;
+	-fx-padding: 10;
+	
+}
+
+.menu_title_container Text {
+	-fx-fill: #000000;
+	-fx-font-size: 20;
+}
+
+/* menu navbar */
+
+.menu_navbar_container {
+	-fx-padding: 10 10 10 20;
+	-fx-spacing: 20;
+}
+
+.menu_navbar_container Button {
+	-fx-background-color: #FFFFFF;
+	-fx-text-fill: #132A13;
+	-fx-font-size: 16;
+	-fx-pref-width: 160;
+	-fx-pref-height: 30;
+	-fx-aligment:center_left;
+	-fx-effect: dropshadow(two-pass-box, #DDDDDD, 5,0,0,6);
+}
+
+.menu_navbar_container Button:hover {
+	-fx-cursor: hand;
+}
+
+.menu_alt_container {
+	-fx-background-color: #F5F5F5;
+	-fx-text-fill: #132A13;
+	-fx-font-size: 18;
+	-fx-pref-width: 160;
+	-fx-pref-height: 40;
+	-fx-aligment:center_left;
+}

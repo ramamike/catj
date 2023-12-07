@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="199.0" styleClass="menu_main_container" stylesheets="@../styles/menu.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ramamike.cat.controllers.MenuController">
+   <children>
+      <AnchorPane prefHeight="580.0" prefWidth="200.0" styleClass="menu_left_container">
+         <children>
+            <VBox prefHeight="80.0" prefWidth="200.0" styleClass="menu_title_container" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Menu" />
+               </children>
+            </VBox>
+            <VBox prefHeight="400.0" prefWidth="200.0" styleClass="menu_navbar_container" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0">
+               <children>
+                  <Button fx:id="CAP_btn" mnemonicParsing="false" text="CAP" />
+                  <Button fx:id="TOP_btn" mnemonicParsing="false" text="TOP" />
+                  <Button fx:id="DDS_btn" mnemonicParsing="false" text="DDS" />
+                  <Line endX="160.0" />
+                  <Button fx:id="help_btn" mnemonicParsing="false" styleClass="menu_alt_container" text="help" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
